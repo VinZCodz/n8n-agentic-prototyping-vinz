@@ -1,0 +1,19 @@
+{
+  "name": "my-n8n-dev-container ",
+  "image": "mcr.microsoft.com/devcontainers/universal",
+  "features": {
+    "ghcr.io/devcontainers-extra/features/n8n": {}
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        // Add any VS Code settings you want
+      },
+      "extensions": [
+        // Add any VS Code extensions you want to be pre-installed
+      ]
+    }
+  },
+
+  "postCreateCommand": "n8n"
+}

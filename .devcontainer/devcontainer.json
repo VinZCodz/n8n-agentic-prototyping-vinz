@@ -15,5 +15,5 @@
     }
   },
 
-  "postCreateCommand": "n8n"
+  "postCreateCommand": "o"
 }

@@ -13,7 +13,5 @@
         // Add any VS Code extensions you want to be pre-installed
       ]
     }
-  },
-
-  "postCreateCommand": "o"
+  }
 }
